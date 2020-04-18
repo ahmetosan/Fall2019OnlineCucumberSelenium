@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class LoginPages {
+public class LoginPages extends AbstractPageBase{
 
     @FindBy(id = "prependedInput")
     private WebElement username;
